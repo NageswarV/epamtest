@@ -1,0 +1,23 @@
+/*Calculator Test Cases
+* Addition of numbers
+* Multiplication of numbers
+* Division of two numbers
+*/
+
+//TestCases For Addition
+0,0,0   // output:0.0
+0,-2,0  // output:-2.0
+10,0  // output:10.0
+15,23 // output:38.0
+1234,4322 // output:5556
+
+//TestCases for Multiplication
+0,0   // output:0.0
+0,20,-5  // output:0.0
+-5,8,-5  //output:80.0
+10,11,5 //output:550.0
+
+//TestCases for Division
+0,0 // ArithmeticException /division by zero
+10,2//output:5.0
+360000/60 //output:60000

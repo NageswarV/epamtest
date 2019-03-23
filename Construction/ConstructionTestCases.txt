@@ -1,0 +1,15 @@
+/*Estimating Construction for house
+*  	User Options
+* 1.Standard Material.
+* 2.Above Standard Material.
+* 3.High Standard Material.
+* 4.Highly Standard Material With Fully Automated Home.
+*/
+//Test Cases for EstimationCnostruction
+square_ft choice
+450 	    1 	//output: 540000.0
+230   	    1 	//output: 276000.0
+343   	    2 	//output: 514500.0
+567.3 	    3 	//output: 1021140.0
+343         4   //output: 857500.0
+ 

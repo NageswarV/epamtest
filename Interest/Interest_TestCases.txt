@@ -1,0 +1,16 @@
+/*Interest Calculation Test Cases
+* SimpleInterest
+* CompoundInterest
+*/
+//TestCases for SimpleInterest
+TestCase  Principal_amount  rate_of_Interest  time
+ 1         10000               10              1      //output:1000
+ 2         25000                3              2      //output:1500
+ 3         33000                7              5      //output:11550
+
+//TestCases for CompoundInterest
+
+TestCase Principal_amount  Rate_of_Interest  time
+ 1          10000             10              2      //output:12203
+ 2          25000             3               2      //output:26543
+ 3          42000             8.3             3.5    //output:51648
